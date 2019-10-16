@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style2.css" type="text/css">
+<title>Contact</title>
+</head>
+<div class="background1">
+<div class="naam">
+<header>
+<h2>Hoe veilig is internetbankieren?</h2>
+</header>
+<div class="navbar">
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="2.html">Internetbankieren</a></li>
+<li>Risico's
+<ul>
+<li><a href="9.html">Phishing</a></li>
+<li><a href="10.html">Pharming</a></li>
+<li><a href="11.html">Trojaanse paarden</a></li>
+</ul>
+<li><a href="5.html">Beveiliging banken</a></li>
+<li>Problemen
+<ul>
+<li><a href="7.html">Storingen</a></li>
+<li><a href="8.html">Laaggeletterden</a></li>
+</ul>
+<li><a href="4.html">Veilig bankieren</a></li>
+<li><a href="form.html">Contact/Reactie</a></li>
+<li><a href="reacties.php">Eerdere reacties</a></li>
+</nav>
+<div class="tekst6">
+<h3> Contact <h3>
+<h4> Wie ben ik? <h4>
+<p> Ik ben Thijs Vries, ik woon in Zwolle en heb deze site gemaakt om mensen te informeren over (veilig) internetbankieren. <p>
+<h4> Contact opnemen <h4>
+<p> Mocht u contact met mij willen opnemen dat kunt u dat doen door een mail te sturen naar het volgende adres: <p> <h5> Thijs.vries123@gmail.com <h5> <p> Mocht u een reactie willen achterlaten dan kan dat hieronder: <p>
+<body>
+<!-- action geeft aan waar, nadat op verstuur knop is gesdrukt, de browser heen gestuurd moet worden; verwerk.php dus in dit geval -->
+<!-- method staat op post, je krijgt dus geen lange url -->
+<form name="reactie_formulier" method="post" action="verwerk.php">
+<table width="300" border="0">
+  <tr>
+  <!-- Onderstaande tags vormen de input-velden; de velden waar tekst ingetypt kan worden. -->
+    <td>Naam:</td>
+    <td><input type="text" name="naam" /></td>
+  </tr>
+
+  <tr>
+    <td>E-mail:</td>
+    <td><input type="text" name="email"  /></td>
+  </tr>
+  <tr>
+    <td>Reactie:</td>
+    <td><textarea name="reactie" rows="8" cols="43"></textarea></td>
+
+  </tr>
+  <tr>
+    <td></td>
+	<!-- zorgt ervoor dat het formulier wordt verzonden naar de pagina die bij action stond -->
+    <td><input type="submit" value="Verstuur" /></td>
+  </tr>
+</table>
+</form>
+</body>
+</div>
+</div>
+<footer>
+Thijs Vries &copy; 2018
+</footer>
+</div>
